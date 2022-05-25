@@ -3,7 +3,7 @@ body{
     font-family: 'Fira Sans', sans-serif;
 }
 
-p, h1, h2, h3 article{
+p, h1, h2, h3, article, ul, li{
     margin: 0px;
     padding: 0px;
 }
@@ -40,6 +40,7 @@ img{
 }
 
 .container{
+    display: grid;
     padding: 40px 100px;
 }
 
@@ -76,4 +77,55 @@ img{
     right: 780px;
     top: 220px;
     z-index: -2;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 150px;
+}
+
+.experience-title{
+    font-size: 9rem;
+    color: #E0E0E0;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 9rem;
+}
+
+.experience-section{
+    display: grid;
+    gap: 20px;
+}
+
+.experience-section-text{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+
+.experience-item{
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.experience-item-description{
+    font-size: 0.8rem;
+    color: #525252;
+}
+
+.experience-item-skill{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.experience-item-skill li{
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
 }
