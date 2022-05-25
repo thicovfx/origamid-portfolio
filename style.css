@@ -1,4 +1,34 @@
 body{
     margin: 0px;
-    font-family: 'Fira Sans', sans-serif;;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+p, h1, h2, h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 40px 100px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.menu-items a{
+    color: #141414;
 }
