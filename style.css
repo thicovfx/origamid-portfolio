@@ -50,6 +50,11 @@ img{
     background-color: #141414;
 }
 
+.container-black{
+    padding: 40px 120px;
+    background-color: #000;
+}
+
 .wolf{
     max-width: 350px;
 }
@@ -157,11 +162,12 @@ img{
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
 }
 
 .education-section-text{
     display: grid;
-    grid-column: 1/3;
+    grid-column: 1/4;
     font-size: 1.5rem;
     line-height: 2rem;
     margin-bottom: 30px;
@@ -178,6 +184,7 @@ img{
     padding: 20px;
 }
 
+
 .education-item h4, h5{
     color: #a3a3a3;
     text-transform: uppercase;
@@ -186,6 +193,19 @@ img{
 .education-item h3{
     color: white;
     margin-bottom: 20px;
+    position: relative;
+}
+
+.education-item h3::before{
+    content: "";
+    background: rgb(103,221,10);
+    background: linear-gradient(90deg, rgba(103,221,10,1) 0%, rgba(182,248,41,1) 100%);
+    left: -25px;
+    width: 5px;
+    height: 24px;
+    position: absolute;
+    border-radius: 5px;
+
 }
 
 .course-title{
@@ -236,6 +256,40 @@ img{
 
 .course-name, .lang-name{
     color: #fff;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 150px 40px;
+}
+
+.contact-text{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #a3a3a3;
+    margin-top: 50px;
+    display: grid;
+    align-items: center;
+    justify-items: start;
+}
+
+.contact-info{
+    color: #fff;
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    grid-column: 2/4;
+}
+
+.footer-note{
+    color: #8f8f8f;
+    font-size: 1.1rem;
+    grid-row: 2;
 }
 
 
