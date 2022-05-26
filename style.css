@@ -24,13 +24,14 @@ img{
 .menu{
     display: flex;
     justify-content: space-between;
-    background-color: #f6f6f6;
-    padding: 20px 100px;
+    background-color: #fbfbfb;
+    padding: 40px 150px;
 }
 
 .menu-items{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 40px;
 }
 
@@ -41,11 +42,11 @@ img{
 
 .container{
     display: grid;
-    padding: 40px 100px;
+    padding: 40px 150px;
 }
 
-.container img{
-    max-width: 400px;
+.wolf{
+    max-width: 350px;
 }
 
 .hero{
@@ -106,21 +107,23 @@ img{
 
 .experience-item{
     background-color: #f0f0f0;
+    /* height: 150px; */
     border-radius: 8px;
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 18px 40px;
 }
 
 .experience-item-description{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #525252;
 }
 
 .experience-item-skill{
     display: flex;
     flex-wrap: wrap;
+    align-items: start;
     gap: 10px;
 }
 
