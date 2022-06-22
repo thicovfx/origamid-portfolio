@@ -21,15 +21,24 @@ img{
     display: block;
 }
 
+.container{
+    padding: 60px 120px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .menu{
     display: flex;
     justify-content: space-between;
     background-color: #fbfbfb;
     padding: 40px 120px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .menu-items{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
@@ -38,21 +47,7 @@ img{
 .menu-items a{
     color: #141414;
     font-size: 1.2rem;
-}
-
-.container-white{
-    padding: 40px 120px;
-    background-color: white;
-}
-
-.container-grey{
-    padding: 40px 120px;
-    background-color: #141414;
-}
-
-.container-black{
-    padding: 40px 120px;
-    background-color: #000;
+    display: block;
 }
 
 .wolf{
@@ -62,32 +57,37 @@ img{
 .hero{
     display: grid;
     grid-template-columns: auto 1fr;
+    align-items: center;
     gap: 50px;
 }
 
 .hero-content{
     display: grid;
-    align-content: center;
     justify-items: start;
     padding: 20px;
 }
 
-.hero-text-title{
+.hero-content h1{
     font-size: 5rem;
     font-style: bold;
     margin-bottom: 20px;
     position: relative;
 }
 
-.hero-content p{
-    font-size: 24px;
+.hero-content h1::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 100px;
+    background: url('img/detalhe.svg') no-repeat center;
+    position: absolute;
+    top: -15px;
+    left: -40px;
+    z-index: -1;
 }
 
-.detail{
-    position: absolute;
-    right: 780px;
-    top: 220px;
-    z-index: -2;
+.hero-content p{
+    font-size: 24px;
 }
 
 .experience{
@@ -143,11 +143,16 @@ img{
 }
 
 .education{
+    background-color: #141414;
+}
+
+.education-container{
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 100px;
-    background-color: #141414;
-    margin-top: 80px;
+    padding: 120px 120px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .education-title{
@@ -258,7 +263,14 @@ img{
     color: #fff;
 }
 
-footer{
+.contact{
+    background-color: #000;
+}
+
+.contact-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 120px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 150px 40px;
