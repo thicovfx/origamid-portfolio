@@ -1,0 +1,95 @@
+@media (max-width: 1200px) {
+  .experience {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .experience-title {
+    font-size: 3.2rem;
+    color: #525252;
+    text-transform: capitalize;
+    max-width: 10ch;
+    line-height: 9rem;
+  }
+  .hero-content h1 {
+    font-size: 4rem;
+  }
+  .experience-section-text {
+    max-width: 50ch;
+  }
+  .education-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .education-title {
+    font-size: 3.2rem;
+    color: #f3f3f3;
+    text-transform: capitalize;
+    max-width: 10ch;
+    line-height: 9rem;
+  }
+  .education-section-text {
+    max-width: 50ch;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wolf {
+    display: none;
+  }
+  .container {
+    padding: 60px 120px 20px 120px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .hero-content {
+    padding: 20px 0;
+  }
+  .experience-item span {
+    order: 1;
+    position: initial;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .menu-items a {
+    color: #141414;
+    font-size: 1rem;
+    background-color: #eeeeee;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  .menu img {
+    max-width: 25%;
+  }
+  .hero-content h1 {
+    font-size: 3.5rem;
+  }
+  .container {
+    padding: 20px 80px 20px 80px;
+  }
+  .contact-container {
+    padding: 80px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .education-container {
+    padding: 80px;
+  }
+  .experience-title {
+    font-size: 2.2rem;
+    line-height: 5rem;
+  }
+  .education-title {
+    font-size: 2.2rem;
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+}
