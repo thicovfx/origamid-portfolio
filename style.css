@@ -351,8 +351,8 @@ img {
   font-weight: bold;
   font-size: 2rem;
   display: grid;
-  align-items: center;
-  gap: 30px;
+  justify-items: flex-start;
+  gap: 15px;
 }
 
 .footer-note {

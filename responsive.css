@@ -56,6 +56,10 @@
   .education-section-text {
     font-size: 1.2rem;
   }
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 100px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -82,7 +86,6 @@
   }
   .contact-container {
     padding: 80px;
-    grid-template-columns: 1fr 1fr;
   }
   .education-container {
     padding: 80px;
@@ -126,10 +129,6 @@
   }
   .education-list {
     flex-direction: column;
-  }
-  .contact-container {
-    grid-template-columns: 1fr;
-    gap: 100px;
   }
 }
 
