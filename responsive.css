@@ -99,7 +99,7 @@
 
 @media (max-width: 680px) {
   .menu {
-    padding: 40px 60px;
+    padding: 40px 30px;
   }
   .menu-items {
     gap: 20px;
