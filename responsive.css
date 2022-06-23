@@ -108,13 +108,13 @@
     font-size: 1rem;
   }
   .container {
-    padding: 20px 60px 60px 60px;
+    padding: 20px 30px 60px 30px;
   }
   .contact-container {
-    padding: 60px;
+    padding: 30px;
   }
   .education-container {
-    padding: 60px;
+    padding: 30px;
   }
   .experience-item {
     grid-template-columns: 1fr;
